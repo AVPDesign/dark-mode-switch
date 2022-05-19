@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Mode Switch</title>
+</head>
+<body>
+
+<div class="slider">
+  <div class="toggle"></div>
+</div>
+
+</body>
+</html>
+
+<!-- Styling -->
+<style>
+
+:root {
+  --primary: #fff;
+  --secondary: #000;
+  --tertiary: #808080;
+  --accent: red;
+}
+
+:root {
+  --toggle: 40px;
+}
+
+.slider {
+  width: calc(var(--toggle) * 2 );
+  padding: calc(var(--toggle) / 10 );
+  border-radius: 999999px;
+  background-color: var(--tertiary);
+}
+
+.toggle {
+  height: var(--toggle);
+  width: var(--toggle);
+  border-radius: 999999px;
+  background-color: var(--primary);
+}
+
+#switch {
+  display: none;
+}
+
+</style>
+
+<!-- JavaScript -->
+<script>
+  
+</script>
